@@ -232,10 +232,10 @@ const Profile = () => {
           <h2>Your Profile</h2>
 
           <div>
-            <strong>Email:</strong> {user.email}
+            <strong>Email:</strong> {user? user.email:<></>}
           </div>
           <div>
-            <strong>Username:</strong> {user.username}
+            <strong>Username:</strong> {user? user.username: <></>}
           </div>
           {isEditing && (
             <div>
