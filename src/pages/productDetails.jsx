@@ -50,7 +50,7 @@ const ProductDetails = () => {
       setAnswerText(""); // Clear the answer text after posting
       window.location.reload()
     } catch (err) {
-      setError("Failed to answer the question. Please try again.");
+      setError("You are not authorized to answer. Try Changing user!");
     }
   };
   const handleAskQuestion = async () => {
