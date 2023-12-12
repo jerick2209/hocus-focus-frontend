@@ -12,17 +12,17 @@ const HeroSection = () => {
           height="400"
         ></img>
         <h1 className="display-5 fw-bold text-body-emphasis">
-          Welcome to Hocus Focus
+          Welcome to Hocus Pocus
         </h1>
         <div className="col-lg-6 mx-auto">
           <p className="lead mb-4">
-            At Hocus Focus, we believe in the magic of giving new life to the things we no longer need. Our mission is to create a community where users can effortlessly discover, buy, and sell quality items.
+            At Hocus Pocus, we believe in the magic of giving new life to the things we no longer need. Our mission is to create a community where users can effortlessly discover, buy, and sell quality items.
           </p>
           <p className="lead mb-4">
-            Whether you're on the lookout for a hidden gem or looking to part with treasures of your own, Hocus Focus is the place for you. We are passionate about sustainability, reusability, and the stories behind every item.
+            Whether you're on the lookout for a hidden gem or looking to part with treasures of your own, Hocus Pocus is the place for you. We are passionate about sustainability, reusability, and the stories behind every item.
           </p>
           <p className="lead mb-4">
-            Join us in reducing waste and making the world a little more magical by giving your possessions a second chance to shine. Thank you for being part of the Hocus Focus community. Let's create a world where every item finds its perfect match!
+            Join us in reducing waste and making the world a little more magical by giving your possessions a second chance to shine. Thank you for being part of the Hocus Pocus community. Let's create a world where every item finds its perfect match!
           </p>
         </div>
       </div>

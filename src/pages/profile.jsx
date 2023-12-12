@@ -3,7 +3,7 @@ import axios from "axios";
 import { getUserIdFromLocalStorage } from "../util/getUserId";
 import EditAdForm from "../components/ads/EditAdForm";
 
-const API_ENDPOINT = "https://hocus-pocus-backend.onrender.comads/by/";
+const API_ENDPOINT = "https://hocus-pocus-backend.onrender.com/ads/by/";
 
 const Profile = () => {
   const [products, setProducts] = useState([]);
