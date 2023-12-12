@@ -59,7 +59,7 @@ const Navbar = () => {
               </li>
             <li className="nav-item">
               <button className="nav-link" onClick={handleLogout}>
-                Logout
+                Logout ({localStorage.getItem("userId")})
               </button>
             </li>
 
