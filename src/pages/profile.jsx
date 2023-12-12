@@ -151,7 +151,7 @@ const Profile = () => {
         headers: {
           Authorization: `Bearer ${token}`,
         },
-      });
+      }); 
 
       setProducts(response.data);
     } catch (error) {
